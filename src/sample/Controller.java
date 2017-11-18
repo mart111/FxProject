@@ -135,8 +135,4 @@ public class Controller implements Initializable {
         return imageID;
     }
 
-    public void f()
-    {
-
-    }
 }
