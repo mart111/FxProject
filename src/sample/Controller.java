@@ -21,7 +21,6 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 
-
 public class Controller implements Initializable {
 
     @FXML
@@ -134,5 +133,10 @@ public class Controller implements Initializable {
 
     public ImageView getImageID() {
         return imageID;
+    }
+
+    public void f()
+    {
+
     }
 }
