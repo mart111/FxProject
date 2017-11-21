@@ -47,6 +47,12 @@ public class Controller implements Initializable {
     private ObservableList<String> listCity = FXCollections.observableArrayList("Yerevan", "Moscow", "Brazil", "Washington", "Andorra", "Buenos Aires");
 
 
+
+    /*
+    \ewoidheiuhieu2heiudhieuwdhjeiwudhiedhiehniehn
+     */
+
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
@@ -58,6 +64,7 @@ public class Controller implements Initializable {
         listCountry.sorted();
         this.comboBoxCountry.setItems(listCountry);
     }
+
 
     public void setComboBoxCity(ObservableList<String> listCity) {
         listCity.sorted();
@@ -97,6 +104,12 @@ public class Controller implements Initializable {
                 else
                     imageEmail.setImage(new Image("sample/images/Close-2-icon.png"));
             }
+    }
+
+
+
+    public void newMethod(){
+
     }
 
 
